@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Long Note Three",
+    "filename": "Long Note Three.mp3",
+    "length": "00:03:12",
+    "instruments": "Strings, Synths",
+    "description": "A very long dark note. Use under dialog, or to kill site noise.",
+    "feel": "Dark, Mysterious, Somber, Suspenseful",
+    "isrc": "USUAN1100424"
+  },
+  {
+    "title": "Reawakening",
+    "filename": "Reawakening.mp3",
+    "length": "00:03:34",
+    "instruments": "Piano, Cello",
+    "description": "Easy love theme; Useful for quiet talks.",
+    "feel": "Calming, Relaxed, Uplifting",
+    "isrc": "USUAN1400017"
+  }
+]

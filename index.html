@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171c1c">
+  <meta name="description" content="寒夜信使：北平1946。调查密信、核对证据、保留退路。让你的判断改变信使与同伴的结局。">
+  <title>寒夜信使 · 北平1946</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%238c4037'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='42' fill='%23e8dfca'%3E信%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=4.20">
+  <link rel="stylesheet" href="interactions.css?v=4.17">
+  <script defer src="assets.js?v=4.20"></script>
+  <script defer src="scenery.js"></script>
+  <script defer src="story.js?v=4.17"></script>
+  <script defer src="interactions.js?v=4.17"></script>
+  <script defer src="music.js?v=4.20"></script>
+  <script defer src="game.js?v=4.20"></script>
+</head>
+<body>
+  <div id="scenery" aria-hidden="true"></div>
+  <div id="shade" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <header id="header">
+    <button class="brand" data-action="home" aria-label="返回封面"><span class="brand-seal">信</span><span>寒夜信使</span></button>
+    <div class="chapter-progress" id="progress" aria-label="章节进度"></div>
+    <nav><button class="icon-button music-toggle" data-action="music-toggle" aria-pressed="true" aria-label="关闭背景音乐">音乐：开</button><button class="icon-button" data-action="notebook">手记</button><button class="icon-button" data-action="menu">菜单 <span aria-hidden="true">☰</span></button></nav>
+  </header>
+  <main id="app"></main>
+  <dialog id="overlay" aria-labelledby="overlay-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请在浏览器中启用 JavaScript，以开启这段旅程。</p></noscript>
+</body>
+</html>
